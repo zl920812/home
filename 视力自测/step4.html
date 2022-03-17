@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-       
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
     <script type="text/javascript" src="./jweixin-1.2.0.js"></script>
-
     <meta name="csrf-param" content="_csrf">
     <meta name="csrf-token" content="MlNzdnVOM3dTCThGLxgeO1o2HR8bG2NDVSlDPRAJBCZ4MRQkWB51Rw==">
-    
     <title>视力自测</title>
     <link href="./bootstrap.css" rel="stylesheet">
     <link href="./site.css" rel="stylesheet">
@@ -40,7 +39,7 @@
         /* 设置了浏览器宽度不大于901px时  显示200px宽度 */
     </style>
 </head>
-<body>
+
 
 <div style="height:100%;">
     <style>
@@ -69,9 +68,16 @@
         </div>
         <div style="clear: both"></div>
     </div>
-    <p style="margin: 20px 0 5px;font-size: 14px;padding-left: 20px">温馨提示：</p>
+    <p style="margin: 20px 0 5px;font-size: 14px;padding-left: 20px">提示：</p>
     <p class="tips">以上测试受屏幕亮度、校准精度等因素限制，可能产生一定的误差，结果仅供参考。</p>
+<div>
+    <div style="margin-top: 10px;">
+        <a class="btn btn-large can" style="background: #1CC975;width: 90%;display: block;margin: 10px auto;font-size: 20px;height: 45px;border-radius: 5px!important;outline: none;color: #fff" href="./step2.html">重新测试</a>
+    </div>
+</div>
 
+
+<body>
 
 <script>
     var old = new Array('0.1', '0.12', '0.15', '0.2', '0.25', '0.3', '0.4', '0.5', '0.6', '0.8', '1.0', '1.2', '1.5', '2.0')//旧视力表标准
