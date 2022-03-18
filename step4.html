@@ -53,11 +53,10 @@
     }
 
     .tips{background: url(./img/arrow.png) no-repeat 0 4px;color: #999;margin:0 0 5px 5px;background-size: 10px 10px;font-size: 14px;padding-left: 15px;text-align: justify;padding-right: 10px}
-</style>
+    </style>
 <div id="canvas">
     <div style="background: url(./img/resultBg.png) center no-repeat;background-size:100% 100%;width: 95%;margin: 0 auto;text-align: center">
         <h3 style="text-align: center;padding: 13px 0 5px 22px;margin: 0 0 0 5%;float: left;font-size: 18px;background: url(./img/arrow.png) 0 13px no-repeat;background-size: 19px 19px;color: #2DBE61">视力自测结果</h3>
-        <a href="./step3.html" style="display: block;color: #999;float: right;text-decoration:  underline;line-height: 30px;padding: 7px 5% 5px 0">重新测试</a>
         <div style="border-top: 1px dashed #ddd;width: 90%;margin: 5px auto;clear: both"></div>
         <div style="float: left;width: 50%;padding-top: 5px;margin-bottom: 5px;font-size: 16px;">
             <p style="color: #666;text-align: center;padding-top: 5px;margin-bottom: 5px;font-size: 16px;">右眼</p>
@@ -71,6 +70,7 @@
     </div>
     <p style="margin: 20px 0 5px;font-size: 14px;padding-left: 20px">提示：</p>
     <p class="tips">以上测试受屏幕亮度、校准精度等因素限制，可能产生一定的误差，结果仅供参考。</p>
+    <p class="tips">结束请关闭。</p>
 <div>
     <div style="margin-top: 10px;">
         <a class="btn btn-large can" style="background: #1CC975;width: 90%;display: block;margin: 10px auto;font-size: 20px;height: 45px;border-radius: 5px!important;outline: none;color: #fff" href="./step2.html">重新测试</a>
@@ -79,7 +79,6 @@
 
 
 <body>
-
 <script>
     var old = new Array('0.1', '0.12', '0.15', '0.2', '0.25', '0.3', '0.4', '0.5', '0.6', '0.8', '1.0', '1.2', '1.5', '2.0')//旧视力表标准
     $(function () {
